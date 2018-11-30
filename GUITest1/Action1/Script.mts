@@ -1,5 +1,22 @@
-﻿Dim x,y,z
+﻿Dim x 
+Dim y
+Dim z
 
-y = x+z
+x=10
+y=20
 
-msgbox y
+
+
+
+call Add()
+
+
+Function Add()
+	
+	
+	z = x + y
+	msgbox z
+End Function
+	
+
+
